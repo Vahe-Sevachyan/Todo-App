@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Sortable/1.14.0/Sortable.min.js"></script>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Todo</title>
+  </head>
+  <body>
+    <div class="topSection">
+      <div class="header">
+        <h1>Todo</h1>
+        <div>
+          <input type="checkbox" id="checkbox" class="checkbox" />
+          <label for="checkbox" class="themeToggle">
+            <img
+              src="images/icon-moon.svg"
+              class="darkModeIcon"
+              alt="Toggle Dark Mode"
+            />
+            <img
+              src="images/icon-sun.svg"
+              class="lightModeIcon"
+              alt="Toggle Light Mode"
+            />
+            <div class="toggleBall"></div>
+          </label>
+        </div>
+      </div>
+
+      <div class="TodoContainer">
+        <!-- InputSection Start -->
+        <div class="inputContainer">
+          <input
+            type="text"
+            style="height: 35px"
+            placeholder="Enter Task"
+            class="todoInput"
+          />
+          <span id="btn" class="btn">
+            <button class="addButton" type="button">
+              <i class="fas fa-plus-circle fa-lg"></i>
+            </button>
+          </span>
+        </div>
+        <!-- InputSection End -->
+        <!-- TodoSection Start -->
+        <div class="todoList" id="todoList"></div>
+
+        <div class="bottomSection">
+          <li class="itemsLeft">0 items left</li>
+          <div class="filterButtons">
+            <li class="allItems">All</li>
+            <li class="activeItems">Active</li>
+            <li class="completedItems">Completed</li>
+          </div>
+          <li class="clearCompleted">Clear Completed</li>
+        </div>
+        <!-- TodoSection End -->
+        <h3 class="dragAndDropHeader">Drag and drop to reorder list</h3>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by
+          <a href="https://www.vahe.tech/" target="_blank">Vahe Sevachayan</a>.
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

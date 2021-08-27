@@ -1,0 +1,65 @@
+.TodoContainer {
+  width: 34%;
+  margin: auto;
+  position: relative;
+}
+.todoInput {
+  background-color: hsl(235, 24%, 19%);
+  border: none;
+  width: 100%;
+  border-radius: 5px;
+  padding: 3rem;
+  color: hsl(236, 9%, 61%);
+  margin-bottom: 3rem;
+  padding-left: 5rem;
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+.btn {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+.addButton {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  background-color: hsl(235, 19%, 35%);
+  border-radius: 50%;
+  border: 1px solid hsl(225, 6%, 87%);
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  margin-top: 0.5rem;
+}
+.fa-plus-circle {
+  position: relative;
+  bottom: 1px;
+  right: 4px;
+  color: hsl(233, 11%, 84%);
+  font-size: 3rem;
+  &:hover {
+    color: hsl(192, 100%, 67%);
+    transition: 0.5s;
+  }
+  &:active {
+    transform: scale(0.9);
+  }
+}
+@media (max-width: 1250px) {
+  .TodoContainer {
+    width: 60%;
+  }
+  .header {
+    width: 60%;
+  }
+}
+@media (max-width: 800px) {
+  .TodoContainer {
+    width: 90%;
+  }
+  .header {
+    width: 90%;
+  }
+}

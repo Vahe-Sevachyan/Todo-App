@@ -1,0 +1,69 @@
+.themeToggle {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(235, 21%, 11%);
+  border-radius: 5rem;
+  width: 8rem;
+  padding: 0.8rem;
+  height: 3.5rem;
+  position: relative;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.toggleBall {
+  background-color: white;
+  position: absolute;
+  height: 2.3rem;
+  width: 2rem;
+  bottom: 6px;
+  border-radius: 50%;
+  transition: transform 0.2s linear;
+}
+#checkbox {
+  opacity: 0;
+  position: absolute;
+}
+.checkbox:checked + .themeToggle .toggleBall {
+  transform: translateX(4.5rem);
+}
+body.light .topSection {
+  background-image: url("../images/bg-desktop-light.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+body.lightBodyColor {
+  background-color: hsl(236, 33%, 92%);
+}
+body.lightInputColor .todoInput {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 11%, 52%);
+}
+body.lightTodos .todos {
+  background-color: hsl(0, 0%, 98%);
+}
+body.lightBottomSection .bottomSection {
+  background-color: hsl(0, 0%, 98%);
+  color: hsl(234, 11%, 52%);
+}
+body.lightBottomSectionHover .allItems:hover,
+body.lightBottomSectionHover .activeItems:hover,
+body.lightBottomSectionHover .completedItems:hover,
+body.lightBottomSectionHover .clearCompleted:hover {
+  cursor: pointer;
+  color: hsl(237, 14%, 26%);
+  transition: ease-in-out 0.5s;
+}
+body.toggleSwitch .themeToggle {
+  background-color: hsl(236, 9%, 61%);
+}
+body.toggleBallColor .toggleBall {
+  background-color: hsl(0, 0%, 98%);
+}
+body.checkBoxColorToggle .checkbox-list {
+  background-color: hsl(0, 0%, 98%);
+}
+body.editButtonPaperClip .fa-paperclip {
+  background-color: hsl(0, 0%, 98%);
+}

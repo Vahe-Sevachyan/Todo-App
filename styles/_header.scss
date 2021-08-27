@@ -1,0 +1,23 @@
+.topSection {
+  height: 35vh;
+  background-image: url("../images/bg-desktop-dark.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 34%;
+  justify-content: space-between;
+  margin: auto;
+  font-size: 1.8rem;
+  color: white;
+  letter-spacing: 1rem;
+}
+body {
+  background-color: hsl(235, 21%, 11%);
+}
