@@ -19,7 +19,7 @@
     <title>Todo</title>
   </head>
   <body>
-    <div class="topSection">
+    <main class="topSection">
       <div class="header">
         <h1>Todo</h1>
         <div>
@@ -35,7 +35,7 @@
               class="lightModeIcon"
               alt="Toggle Light Mode"
             />
-            <div class="toggleBall"></div>
+            <span class="toggleBall"></span>
           </label>
         </div>
       </div>
@@ -50,26 +50,25 @@
             class="todoInput"
           />
           <span id="btn" class="btn">
-            <button class="addButton" type="button">
+            <div class="addButton" type="button">
               <i class="fas fa-plus-circle fa-lg"></i>
-            </button>
+            </div>
           </span>
         </div>
         <!-- InputSection End -->
         <!-- TodoSection Start -->
         <div class="todoList" id="todoList"></div>
-
         <div class="bottomSection">
-          <li class="itemsLeft">0 items left</li>
-          <div class="filterButtons">
+          <div class="itemsLeft">0 items left</div>
+          <ul class="filterButtons">
             <li class="allItems">All</li>
             <li class="activeItems">Active</li>
             <li class="completedItems">Completed</li>
-          </div>
-          <li class="clearCompleted">Clear Completed</li>
+          </ul>
+          <div class="clearCompleted">Clear Completed</div>
         </div>
         <!-- TodoSection End -->
-        <h3 class="dragAndDropHeader">Drag and drop to reorder list</h3>
+        <h2 class="dragAndDropHeader">Drag and drop to reorder list</h2>
         <div class="attribution">
           Challenge by
           <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
@@ -78,7 +77,7 @@
           <a href="https://www.vahe.tech/" target="_blank">Vahe Sevachayan</a>.
         </div>
       </div>
-    </div>
+    </main>
     <script src="script.js"></script>
   </body>
 </html>
