@@ -17,8 +17,8 @@ Users can:
 - Edit Items
 - Horizontal Scroll
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/todo-app-B8ap3dmjR)
+- Live Site URL: [Add live site URL here](https://vahe-sevachyan.github.io/Todo-App/)
 
 ### Built with
 
