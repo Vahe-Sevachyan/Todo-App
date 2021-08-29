@@ -29,7 +29,7 @@ Users can:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - [Vahe Sevachyan](https://www.your-site.com)
 - Frontend Mentor - [@CypherCode13](https://www.frontendmentor.io/profile/CypherCode13)
 - Twitter - [@CypherCode13](https://www.twitter.com/CypherCode13)
 
